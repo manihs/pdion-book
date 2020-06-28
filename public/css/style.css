@@ -1,0 +1,140 @@
+.mob-navbar {
+    background-color: #10375c;
+}
+
+.h-60px {
+    min-height: 60px;
+}
+
+.space-30 {
+    min-height: 30vh;
+}
+
+.f-16 {
+    font-size: 18px;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
+.z-1000 {
+    z-index: 10000;
+}
+
+.vh-50 {
+    min-height: 50vh;
+}
+
+.btn-mw {
+    min-width: 80px;
+}
+
+.price-tag {
+    font-size: 14px;
+    margin-right: 3px;
+    color: red;
+}
+
+.modal-message {
+    margin-top: 30vh;
+}
+
+.detail-model {
+    margin-top: 10vh;
+    background: black;
+}
+
+.modal-message .modal-content,
+.detail-model {
+    border: 6px solid darkgoldenrod;
+}
+
+.model-bookname {
+    color: #f5f5f5;
+}
+
+
+/* Toast message */
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #fb7813;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 2001;
+    left: 50%;
+    top: 30px;
+    font-size: 17px;
+}
+
+#snackbar.tshow {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+    to {
+        top: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+    to {
+        top: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        top: 30px;
+        opacity: 1;
+    }
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        top: 30px;
+        opacity: 1;
+    }
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
